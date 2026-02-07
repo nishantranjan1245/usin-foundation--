@@ -14,7 +14,7 @@ import Footer from "@/components/Footer";
 import usePageTitle from "@/hooks/usePageTitle";
 
 const Index = () => {
-  usePageTitle("Home - USIN Foundation - Nurturing a Greener Future For India");
+  usePageTitle("USIN Foundation - Nurturing a Greener Future For India");
 
   return (
     <div className="min-h-screen bg-background">

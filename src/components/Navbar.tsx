@@ -42,12 +42,13 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="flex items-center justify-center w-10 h-10 rounded-full overflow-hidden">
-              <img src={usinLogo} alt="USIN Foundation Logo" className="w-10 h-10 object-contain" />
+            <div className="flex items-center justify-center w-20 h-20 rounded-full overflow-hidden">
+              <img src={usinLogo} alt="USIN Foundation Logo" className="w-20 h-20 object-contain" />
             </div>
-            <span className="font-display text-lg font-bold leading-tight text-gradient-green">
-              USIN Foundation
-            </span>
+            <span className="font-display text-2xl font-bold leading-tight text-gradient-green">
+  USIN Foundation
+</span>
+
           </Link>
 
           {/* Desktop Nav */}

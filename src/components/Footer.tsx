@@ -1,6 +1,6 @@
 import { Mail, Phone, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
-import usinLogo from "@/assets/usin-logo.png";
+import usinLogo from "/logo-1.png";
 
 const Footer = () => {
   return (
@@ -10,10 +10,10 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <div className="flex items-center justify-center w-10 h-10 rounded-full overflow-hidden">
-                <img src={usinLogo} alt="USIN Foundation Logo" className="w-10 h-10 object-contain" />
+              <div className="flex items-center justify-center w-20 h-20 rounded-full overflow-hidden">
+                <img src={usinLogo} alt="USIN Foundation Logo" className="w-20 h-20 object-contain" />
               </div>
-              <span className="font-display text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-gold to-accent">
+              <span className="font-display text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-gold to-accent">
                 USIN Foundation
               </span>
             </Link>
