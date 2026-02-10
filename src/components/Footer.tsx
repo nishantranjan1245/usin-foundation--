@@ -97,7 +97,7 @@ const Footer = () => {
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-gold flex-shrink-0" />
                 <span className="text-sm text-primary-foreground/60">
-                  +91 XXXX XXXXXX
+                  +91 9898748596
                 </span>
               </li>
             </ul>
